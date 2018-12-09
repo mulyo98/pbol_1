@@ -21,7 +21,7 @@ public class ThreadPool {
     public static void main(String[] args) {
         ExecutorService service= Executors.newFixedThreadPool(6);
         for (int i = 1; i<6;i++){
-            service.submit(new kelaspemroses (i));
+            service.submit(new kelaspemrosesan (i));
             ThreadPool testangka=new ThreadPool ();
             testangka.setName ("adalah bilangan ganjil");
             for (int angka = 1; angka <100; angka=angka+2) {
